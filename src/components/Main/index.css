@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+}
+.headings {
+    text-align: center;
+}
+
+.headings h1 {
+color: #263b5e;
+font-size: 4.2rem;
+font-weight: 500;
+}
+
+.headings h3 {
+    color: #5b606c;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.headings p {
+color: #a1aabd;
+font-size: 1.3rem;
+width: 60%;
+text-align: justify;
+margin: 20px auto;
+}
+
+.log-buttons {
+    margin: 30px auto;
+}

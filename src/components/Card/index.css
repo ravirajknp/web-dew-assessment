@@ -1,0 +1,53 @@
+.card {
+
+    
+}
+
+.card-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+.feature-heading {
+    color: #263b5e;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 30px auto;
+    text-align: center;
+}
+.card-cainter {
+    background-color: white;
+    box-shadow: 0px 3px 10px 0px rgb(38 59 94 / 10%);
+    padding: 60px 40px 38px;
+    margin-bottom: 30px;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    width: 25%;
+    height: auto;
+    gap: 20px;
+}
+.card-cainter:hover {
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.card-heading{
+    color: #8894a6;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.card-text {
+    color: #b1b6c7;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.card-arrow {
+    position: relative;
+    bottom: 0;
+    left: 0;
+}

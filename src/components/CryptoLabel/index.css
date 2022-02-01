@@ -1,0 +1,21 @@
+.crypto-label {
+    width: 100%;
+    background: #5e2ced;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 100px 150px;
+    margin: 100px 0;
+}
+
+.crypto-content {
+    width: 50%;
+    color: #f8f6fe;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.cry-btn {
+width: 50%;
+text-align: center;
+}

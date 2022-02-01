@@ -1,0 +1,65 @@
+.footer {
+    position: relative;
+    padding: 120px 0px 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.background {
+    position: absolute;
+    bottom: 0;
+    background: url(../../assets/footer_bg.png) no-repeat scroll center 0;
+    width: 100%;
+    height: 266px;
+}
+.animation-1 {
+background: url(../../assets/car.png) no-repeat center center;
+width: 70px;
+height: 50px;
+    bottom: 0;
+    left: 38%;
+    position: absolute;
+    animation: myanim 20s linear 0s infinite normal none;
+    animation-play-state: running;
+}
+
+.animation-2 {
+background: url(../../assets/bike.png) no-repeat center center;  
+width: 70px;
+height: 50px;
+    bottom: 0;
+    position: absolute;
+    animation: myanim 30s linear 0s infinite normal forwards;
+    animation-play-state: running;
+}
+
+
+@keyframes myanim {
+    from {
+      transform: translatex(0%);
+    }
+  
+    to {
+      transform: translatex(100vw);
+    }
+  }
+
+  .footer-data {
+    position: absolute;
+    bottom: -150px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 50px 100px;
+   
+}
+
+
+
+.footer-data p {
+color: #b5bbcb;
+}
+
+.footer-data {
+    justify-self: flex-end;
+} 

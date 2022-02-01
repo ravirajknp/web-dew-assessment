@@ -1,0 +1,34 @@
+.triowallet {
+    background: #544be5;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 150px;
+    margin: 100px 0;
+}
+
+.wallet-container {
+width: 50%;
+/* display: flex; */
+}
+
+.wallet-container .wallet-desc {
+    color: #fff;
+    margin: 20px 0;
+}
+.wallet-container h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    }
+.wallet-container p {
+font-size: 1rem;
+}
+
+
+.wallet-img-container {
+    width: 50%;
+}
+.wallet-img-container img {
+    width: 80%;
+}
